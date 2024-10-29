@@ -110,4 +110,4 @@ def convert_model_to_int32(model_path: str, out_path: str):
 
 
 if __name__ == "__main__":
-    typer.run(convert_model_to_int32)
+    typer.run(convert_model_to_int32("F:/v5n.onnx","F:/c++daima/tensor.onnx"))
